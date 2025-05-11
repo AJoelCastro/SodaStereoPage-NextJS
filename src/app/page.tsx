@@ -1,8 +1,10 @@
+"use client";
+
 import Image from 'next/image';
 import Link from 'next/link';
 import { Button } from '@/components/ui/button';
 import ParallaxWrapper from '@/components/animations/parallax-wrapper';
-import { ArrowRight, Users, LibraryMusic } from 'lucide-react';
+import { ArrowRight, Users, Library } from 'lucide-react';
 
 export default function Home() {
   return (
@@ -66,7 +68,7 @@ export default function Home() {
           </ParallaxWrapper>
           <div className="grid md:grid-cols-2 gap-8 max-w-4xl mx-auto">
             <ParallaxWrapper speed={0.15}>
-            <Link href="/band" className="block">
+            <Link href="/band" className="block group">
               <CardFeature 
                 icon={<Users size={40} className="text-secondary" />} 
                 title="Meet The Band"
@@ -75,9 +77,9 @@ export default function Home() {
             </Link>
             </ParallaxWrapper>
             <ParallaxWrapper speed={0.15} >
-            <Link href="/discography" className="block">
+            <Link href="/discography" className="block group">
               <CardFeature 
-                icon={<LibraryMusic size={40} className="text-secondary" />} 
+                icon={<Library size={40} className="text-secondary" />} 
                 title="Explore Discography"
                 description="Dive into our albums, from groundbreaking debuts to the latest releases."
               />
@@ -116,7 +118,7 @@ interface CardFeatureProps {
 
 function CardFeature({ icon, title, description }: CardFeatureProps) {
   return (
-    <div className="bg-card p-8 rounded-lg shadow-lg hover:shadow-primary/30 transition-all duration-300 h-full flex flex-col items-center text-center">
+    <div className="bg-card p-8 rounded-lg shadow-lg hover:shadow-primary/30 transition-all duration-300 h-full flex flex-col items-center text-center group">
       <div className="mb-6 p-4 bg-primary/10 rounded-full">
         {icon}
       </div>
