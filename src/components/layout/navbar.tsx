@@ -9,7 +9,7 @@ import { Button } from '@/components/ui/button';
 
 const navLinks = [
   { href: '/', label: 'Inicio' },
-  { href: '/banda', label: 'La banda' },
+  { href: '/banda', label: 'Banda' },
   { href: '/discografia', label: 'Discografia' },
 ];
 

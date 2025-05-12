@@ -4,7 +4,7 @@ import ParallaxWrapper from '@/components/animations/parallax-wrapper';
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: 'The Band | Rhythmic Revolutions',
+  title: 'Banda | Soda Stereo',
   description: 'Conoce a los miembros de Soda Stereo.',
 };
 

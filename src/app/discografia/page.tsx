@@ -4,8 +4,8 @@ import ParallaxWrapper from '@/components/animations/parallax-wrapper';
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: 'Discography | Rhythmic Revolutions',
-  description: 'Explore the albums and music of Rhythmic Revolutions.',
+  title: 'Discografia | Soda Stereo',
+  description: 'Explora los álbumes y música de Soda Stereo.',
 };
 
 export default function DiscographyPage() {
