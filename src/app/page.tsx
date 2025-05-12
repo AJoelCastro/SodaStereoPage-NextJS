@@ -32,7 +32,7 @@ export default function Home() {
               Música que conecta, celebra y celebra la vida con todas las generaciones.
             </p>
             <Button asChild size="lg" className="bg-primary hover:bg-accent text-primary-foreground">
-              <Link href="/discography">
+              <Link href="/discografia">
                 Explorar Álbumes <ArrowRight size={20} className="ml-2" />
               </Link>
             </Button>
@@ -66,7 +66,7 @@ export default function Home() {
           </ParallaxWrapper>
           <div className="grid md:grid-cols-2 gap-8 max-w-4xl mx-auto">
             <ParallaxWrapper speed={0.15}>
-            <Link href="/band" className="block group">
+            <Link href="/banda" className="block group">
               <CardFeature 
                 icon={<Users size={40} className="text-secondary" />} 
                 title="Conoce a la banda"
@@ -75,7 +75,7 @@ export default function Home() {
             </Link>
             </ParallaxWrapper>
             <ParallaxWrapper speed={0.15} >
-            <Link href="/discography" className="block group">
+            <Link href="/discografia" className="block group">
               <CardFeature 
                 icon={<Library size={40} className="text-secondary" />} 
                 title="Descubre la Discografia"
