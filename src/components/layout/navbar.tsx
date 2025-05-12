@@ -8,9 +8,9 @@ import { cn } from '@/lib/utils';
 import { Button } from '@/components/ui/button';
 
 const navLinks = [
-  { href: '/', label: 'Home' },
-  { href: '/band', label: 'The Band' },
-  { href: '/discography', label: 'Discography' },
+  { href: '/', label: 'Inicio' },
+  { href: '/banda', label: 'La banda' },
+  { href: '/discografia', label: 'Discografia' },
 ];
 
 export default function Navbar() {
@@ -41,7 +41,7 @@ export default function Navbar() {
         <div className="flex items-center justify-between h-20">
           <Link href="/" className="flex items-center space-x-2 text-2xl font-bold text-primary hover:text-accent transition-colors">
             <Music2 size={32} />
-            <span>Rhythmic Revolutions</span>
+            <span>Soda Stereo</span>
           </Link>
 
           <nav className="hidden md:flex space-x-6">

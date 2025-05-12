@@ -26,10 +26,10 @@ export default function Home() {
         <div className="relative z-10 p-8 max-w-3xl">
           <ParallaxWrapper speed={-0.1}>
             <h1 className="text-5xl md:text-7xl font-extrabold mb-6 text-transparent bg-clip-text bg-gradient-to-r from-primary via-secondary to-primary animate-gradient-x">
-              Rhythmic Revolutions
+              Soda Stereo
             </h1>
             <p className="text-xl md:text-2xl mb-8 text-foreground/90">
-              Experience the sound that defines a generation.
+              Música que conecta, celebra y celebra la vida con todas las generaciones.
             </p>
             <Button asChild size="lg" className="bg-primary hover:bg-accent text-primary-foreground">
               <Link href="/discography">
