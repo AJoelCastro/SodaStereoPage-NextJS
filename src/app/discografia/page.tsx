@@ -13,11 +13,11 @@ export default function DiscographyPage() {
     <div className="container mx-auto px-4 sm:px-6 lg:px-8 py-24 md:py-32">
       <ParallaxWrapper speed={-0.1}>
       <h1 className="text-5xl font-extrabold text-center mb-8 bg-clip-text text-transparent bg-gradient-to-r from-primary to-secondary">
-        Our Music
+        Nuestla Música
       </h1>
       <p className="text-xl text-center text-foreground/80 max-w-3xl mx-auto mb-16 leading-relaxed">
-        Dive into the sonic universe of Rhythmic Revolutions. Each album is a chapter in our story,
-        a collection of sounds and emotions crafted for you.
+        Sumérgete en el universo musical. Cada álbum es un capítulo en nuestra historia,
+        una colección de sonidos y emociones hechas parea ti.
       </p>
       </ParallaxWrapper>
 

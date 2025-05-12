@@ -16,9 +16,9 @@ export default function Footer() {
             <Instagram size={24} />
           </Link>
         </div>
-        <p>&copy; {new Date().getFullYear()} Rhythmic Revolutions. All rights reserved.</p>
+        <p>&copy; {new Date().getFullYear()} Soda Stereo. Todos los derechos reservados.</p>
         <p className="text-sm mt-2">
-          Designed by an Expert Designer for Firebase Studio
+          Diseñado por CIDSIA
         </p>
       </div>
     </footer>

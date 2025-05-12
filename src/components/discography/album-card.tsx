@@ -41,14 +41,14 @@ export default function AlbumCard({ album }: AlbumCardProps) {
         <Dialog>
           <DialogTrigger asChild>
             <Button variant="outline" className="w-full border-primary text-primary hover:bg-primary hover:text-primary-foreground">
-              View Details
+              Ver Detalles
             </Button>
           </DialogTrigger>
           <DialogContent className="sm:max-w-[600px] bg-card text-card-foreground border-border">
             <DialogHeader>
               <DialogTitle className="text-2xl text-primary">{album.title}</DialogTitle>
               <DialogDescription className="text-secondary">
-                Released: {album.releaseYear}
+                Lanzado: {album.releaseYear}
               </DialogDescription>
             </DialogHeader>
             <div className="grid gap-4 py-4">
@@ -64,7 +64,7 @@ export default function AlbumCard({ album }: AlbumCardProps) {
               <p className="text-foreground/90">{album.description}</p>
               <div>
                 <h3 className="text-lg font-semibold text-primary mb-2 flex items-center">
-                  <ListMusic size={20} className="mr-2" /> Tracklist
+                  <ListMusic size={20} className="mr-2" /> Lista de Canciones
                 </h3>
                 <ul className="list-disc list-inside space-y-1 text-foreground/80">
                   {album.tracks.map((track, index) => (

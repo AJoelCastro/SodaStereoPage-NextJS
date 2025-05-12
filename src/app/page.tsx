@@ -33,7 +33,7 @@ export default function Home() {
             </p>
             <Button asChild size="lg" className="bg-primary hover:bg-accent text-primary-foreground">
               <Link href="/discography">
-                Explore Music <ArrowRight size={20} className="ml-2" />
+                Explorar Albums <ArrowRight size={20} className="ml-2" />
               </Link>
             </Button>
           </ParallaxWrapper>
@@ -58,12 +58,10 @@ export default function Home() {
       <section id="about" className="w-full py-20 md:py-32 bg-background text-foreground">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
           <ParallaxWrapper speed={0.1}>
-            <h2 className="text-4xl font-bold mb-8 text-primary">About The Band</h2>
+            <h2 className="text-4xl font-bold mb-8 text-primary">Acerca de Soda Stereo</h2>
             <p className="text-lg md:text-xl max-w-3xl mx-auto mb-12 text-foreground/80 leading-relaxed">
-              Rhythmic Revolutions is not just a band; it's a movement. Formed in the heart of the digital age,
-              we blend raw rock energy with electrifying synth soundscapes to create music that resonates with the
-              pulse of modern life. Our songs are anthems for a generation navigating change, seeking connection,
-              and daring to dream of a different tomorrow.
+            Soda Stereo es una de las bandas más importantes e influyentes en toda la historia del rock argentino y latinoamericano, con una popularidad masiva en todo el continente desde mediados de los años '80 y hasta la actualidad.
+ La banda nació a principios de 1982 con la unión de Gustavo Cerati, Zeta Bosio y Charly Alberti, tres jóvenes que buscaban formar un grupo con influencias de la new-wave de Inglaterra y Estados Unidos.
             </p>
           </ParallaxWrapper>
           <div className="grid md:grid-cols-2 gap-8 max-w-4xl mx-auto">
@@ -71,8 +69,8 @@ export default function Home() {
             <Link href="/band" className="block group">
               <CardFeature 
                 icon={<Users size={40} className="text-secondary" />} 
-                title="Meet The Band"
-                description="Discover the individuals behind the music and their unique stories."
+                title="Conoce a la banda"
+                description="Descubre las personas detrás de la música y sus historias únicas."
               />
             </Link>
             </ParallaxWrapper>
@@ -80,8 +78,8 @@ export default function Home() {
             <Link href="/discography" className="block group">
               <CardFeature 
                 icon={<Library size={40} className="text-secondary" />} 
-                title="Explore Discography"
-                description="Dive into our albums, from groundbreaking debuts to the latest releases."
+                title="Descubre la Discografia"
+                description="Sumérgete en nuestros álbumes, desde debuts innovadores hasta los últimos lanzamientos."
               />
             </Link>
              </ParallaxWrapper>
