@@ -33,7 +33,7 @@ export default function Home() {
             </p>
             <Button asChild size="lg" className="bg-primary hover:bg-accent text-primary-foreground">
               <Link href="/discography">
-                Explorar Albums <ArrowRight size={20} className="ml-2" />
+                Explorar Álbumes <ArrowRight size={20} className="ml-2" />
               </Link>
             </Button>
           </ParallaxWrapper>
@@ -91,14 +91,14 @@ export default function Home() {
       <section className="w-full py-20 md:py-32 bg-card text-card-foreground">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
           <ParallaxWrapper speed={0.1}>
-            <h2 className="text-4xl font-bold mb-8 text-primary">Join the Revolution</h2>
+            <h2 className="text-4xl font-bold mb-8 text-primary">Únete a la Revolución</h2>
             <p className="text-lg md:text-xl max-w-3xl mx-auto mb-12 text-card-foreground/80 leading-relaxed">
-              Stay tuned for upcoming tour dates, new releases, and exclusive content. Follow us on social media
-              and become part of the Rhythmic Revolutions family.
+            Estén atentos para las próximas fechas de la gira, nuevos lanzamientos y contenido exclusivo. Síguenos en las redes sociales
+            y formar parte de la familia Stereos´s.
             </p>
             <Button asChild size="lg" className="bg-secondary hover:bg-secondary/90 text-secondary-foreground">
               <Link href="#">
-                Follow Us
+                Siguenos
               </Link>
             </Button>
           </ParallaxWrapper>

@@ -16,8 +16,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: 'Rhythmic Revolutions',
-  description: 'The official website of Rhythmic Revolutions band.',
+  title: 'Soda Stereo',
+  description: 'Sitio oficial de Soda Stereo.',
 };
 
 export default function RootLayout({
