@@ -91,7 +91,7 @@ export default function Home() {
       <section className="w-full py-20 md:py-32 bg-card text-card-foreground">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
           <ParallaxWrapper speed={0.1}>
-            <h2 className="text-4xl font-bold mb-8 text-primary">Únete a la Revolución</h2>
+            <h2 className="text-4xl font-bold mb-8 text-primary">Únete a la Soda Stereo</h2>
             <p className="text-lg md:text-xl max-w-3xl mx-auto mb-12 text-card-foreground/80 leading-relaxed">
             Estén atentos para las próximas fechas de la gira, nuevos lanzamientos y contenido exclusivo. Síguenos en las redes sociales
             y formar parte de la familia Stereos´s.
