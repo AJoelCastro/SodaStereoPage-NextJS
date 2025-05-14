@@ -115,7 +115,7 @@ export default function AlbumCard({ album }: AlbumCardProps) {
             </Button>
           </DialogTrigger>
           <DialogContent 
-            className="sm:max-w-[600px] bg-card text-card-foreground border-border flex flex-col max-h-[90vh]"
+            className="sm:max-w-[600px] bg-card text-card-foreground border-border flex flex-col max-h-[95vh]"
             onPointerDownOutside={(e) => {
                 if ((e.target as HTMLElement).closest('audio')) {
                     e.preventDefault();
@@ -128,7 +128,7 @@ export default function AlbumCard({ album }: AlbumCardProps) {
                 Lanzado: {album.releaseYear}
               </DialogDescription>
             </DialogHeader>
-            <div className="grid gap-4 py-4 flex-grow overflow-hidden">
+            <div className="flex flex-col gap-4 py-4 flex-grow overflow-hidden">
               <div className="relative h-64 w-full rounded-md overflow-hidden mb-4">
                 <Image
                   src={album.coverArtUrl}
@@ -139,15 +139,17 @@ export default function AlbumCard({ album }: AlbumCardProps) {
                 />
               </div>
               <p className="text-foreground/90">{album.description}</p>
-              <div>
+              <div className="flex flex-col flex-grow overflow-hidden">
                 <h3 className="text-lg font-semibold text-primary mb-2 flex items-center">
                   <ListMusic size={20} className="mr-2" /> Lista de Canciones
                 </h3>
-                <ul className="list-none space-y-1 text-foreground/80 max-h-48 overflow-y-auto pr-2">
+                <ul className="flex-grow overflow-y-auto pr-2 space-y-1 text-foreground/80">
                   {album.tracks.map((track, index) => (
-                    <li key={index} 
-                        className="flex items-center justify-between p-2 rounded-md hover:bg-muted cursor-pointer transition-colors"
-                        onClick={() => handleTrackClick(track)}>
+                    <li
+                      key={index}
+                      className="flex items-center justify-between p-2 rounded-md hover:bg-muted cursor-pointer transition-colors"
+                      onClick={() => handleTrackClick(track)}
+                    >
                       <span className="truncate flex-1 mr-2">{track.name}</span>
                       {currentPlayingTrack?.name === track.name && isPlaying && <Volume2 size={16} className="text-primary" />}
                       {currentPlayingTrack?.name === track.name && !isPlaying && <Play size={16} className="text-primary" />}
