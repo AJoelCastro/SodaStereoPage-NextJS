@@ -39,9 +39,10 @@ export const albums: Album[] = [
     aiHint: '80s synth rock',
     tracks: [
       { name: 'Cuando Pase el Temblor', audioUrl: 'https://sodastereobucket.s3.us-east-2.amazonaws.com/Soda+Stereo+-+Cuando+Pase+El+Temblor+(Gira+Me+Ver%C3%A1s+Volver).mp3' },
-      { name: 'Nada Personal', audioUrl: placeholderAudioUrl },
+      { name: 'Nada Personal', audioUrl: 'https://sodastereobucket.s3.us-east-2.amazonaws.com/Nada+Personal/1+-+Soda+Stereo+-+Nada+Personal.mp3' },
       { name: 'Juego de Seducción', audioUrl: placeholderAudioUrl },
       { name: 'Imágenes Retro', audioUrl: placeholderAudioUrl },
+      { name: 'Estoy Azulado', audioUrl: 'https://sodastereobucket.s3.us-east-2.amazonaws.com/Nada+Personal/Soda+Stereo+-+Estoy+Azulado+(Remasterizado+2007).mp3' },
     ],
     description: 'Consolidó el éxito de la banda y los llevó a la fama internacional.'
   },
